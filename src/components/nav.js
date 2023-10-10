@@ -86,7 +86,7 @@ export default function Nav({ faq, feature, handleActive }) {
 
               {isOpen && (
                 <div className="absolute left-0 flex flex-col items-start w-[300px] bg-red-100 rounded-lg top-7">
-                  <a href="/folder/NDPR" className="w-full p-2 break-all hover:bg-slate-400">
+                  <a href="/folder/NDPR" className="w-full p-2 break-all hover:bg-slate-400 text-center">
                     NDPR
                   </a>
                   <a href="/folder/PCIDSS" className="w-full p-2 break-all hover:bg-slate-400">
