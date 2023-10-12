@@ -85,42 +85,39 @@ export default function Nav({ faq, feature, handleActive }) {
               </a>
 
               {isOpen && (
-                <div className="absolute left-0 flex flex-col items-start w-[300px] bg-red-100 rounded-lg top-7">
-                  <a href="/folder/NDPR" className="w-full p-2 break-all hover:bg-slate-400 text-center">
-                    NDPR
-                  </a>
-                  <a href="/folder/PCIDSS" className="w-full p-2 break-all hover:bg-slate-400">
+                <div className="absolute left-0 flex flex-col items-start w-[100%] md:w-[300px] bg-red-100 rounded-lg top-7">
+                <a href="/folder/NDPR" className="w-full p-2 break-all hover:bg-slate-400 text-center">
+                  NDPR
+                </a>
+                <a href="/folder/PCIDSS" className="w-full p-2 break-all hover-bg-slate-400">
                   PCIDSS
-                  </a>
-                  <a href="/folder/ISO-27001" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/ISO-27001" className="w-full p-2 break-all hover:bg-slate-400">
                   ISO-27001
-                  </a>
-                  {/* <a href="/folder/Compliance" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/Compliance" className="w-full p-2 break-all hover:bg-slate-400">
                   Compliance
-                  </a> */}
-                  <a href="/folder/Compliance" className="w-full p-2 break-all hover:bg-slate-400">
-                  Compliance
-                  </a>
-                  <a href="/folder/Organogram" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/Organogram" className="w-full p-2 break-all hover:bg-slate-400">
                   Organogram
-                  </a>
-                  <a href="/folder/Documentations" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/Documentations" className="w-full p-2 break-all hover:bg-slate-400">
                   Documentations
-                  </a>
-                  <a href="/folder/SLA" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/SLA" className="w-full p-2 break-all hover:bg-slate-400">
                   SLA
-                  </a>
-                  <a href="/folder/TAT" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/TAT" className="w-full p-2 break-all hover:bg-slate-400">
                   TAT
-                  </a>
-                  <a href="/folder/culture" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/culture" className="w-full p-2 break-all hover:bg-slate-400">
                   culture
-                  </a>
-                  <a href="/folder/Information security management" className="w-full p-2 break-all hover:bg-slate-400">
+                </a>
+                <a href="/folder/Information security management" className="w-full p-2 break-all hover:bg-slate-400">
                   Information security management.
-                  </a>
-                  {/* Add more menu items as needed */}
-                </div>
+                </a>
+                {/* Add more menu items as needed */}
+              </div>              
               )}
             </li>
 
